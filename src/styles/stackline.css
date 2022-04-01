@@ -1,0 +1,33 @@
+@import "./theme.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.test {
+  border: 1px solid red;
+}
+
+.h-full {
+  height: 90vw !important;
+}
+
+.panel {
+  box-shadow: 0px 0px 5px 5px #ccc;
+}

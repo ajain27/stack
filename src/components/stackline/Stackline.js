@@ -8,7 +8,7 @@ function Stackline() {
   return (
     <div>
       <Header />
-      <div className=" wrapper flex h-full p-2 m-3 mt-5">
+      <div className="flex pb-4 m-5">
         <Sidebar />
         <SalesData />
       </div>

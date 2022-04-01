@@ -5,7 +5,7 @@ import "./SalesData.css";
 
 function SalesData() {
   return (
-    <div className="salesdata m-3">
+    <div className="salesdata m-2">
       <Graph />
       <Sales />
     </div>

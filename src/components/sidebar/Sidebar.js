@@ -4,7 +4,7 @@ import "./Sidebar.css";
 function Sidebar() {
   return (
     <>
-      <div className="panel sidebar m-3"></div>
+      <div className="panel h-full sidebar m-4"></div>
     </>
   );
 }

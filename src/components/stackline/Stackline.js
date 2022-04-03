@@ -1,4 +1,3 @@
-import React from "react";
 import Sidebar from "../sidebar/Sidebar";
 import Header from "../header/Header";
 // import Graph from "../graph/Graph";
@@ -8,7 +7,7 @@ function Stackline() {
   return (
     <div>
       <Header />
-      <div className="flex pb-4 m-5">
+      <div className="flex m-3 mt-5 mb-5">
         <Sidebar />
         <SalesData />
       </div>

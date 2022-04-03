@@ -1,19 +1,7 @@
 @import "./theme.css";
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-html,
 body {
-  height: 100%;
-  overflow: hidden;
+  background-color: hsl(0, 0%, 96.5%) !important;
 }
 
 .flex {
@@ -25,9 +13,10 @@ body {
 }
 
 .h-full {
-  height: 85vh !important;
+  height: 89vh !important;
 }
 
 .panel {
   box-shadow: 0px 0px 5px 5px #ccc;
+  border-radius: 0;
 }

@@ -1,33 +1,11 @@
-import React from "react";
 import Table from "react-bootstrap/Table";
 import { useStackline } from "../../context/StacklineContext";
 import "./Sales.css";
+import { currencyFormat, changeDateFormat } from "../../utils/Custom";
 
 function Sales() {
   const apiData = useStackline();
   const salesData = apiData[0].sales;
-
-  const currencyFormat = (num) => {
-    return (
-      "$" +
-      num
-        .toFixed(2)
-        .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
-        .slice(0, -3)
-    );
-  };
-
-  const changeDateFormat = (inputDate) => {
-    var splitDate = inputDate.split("-");
-    if (splitDate.count === 0) {
-      return null;
-    }
-    var year = splitDate[0];
-    var month = splitDate[1];
-    var day = splitDate[2];
-
-    return month + "-" + day + "-" + year;
-  };
 
   return (
     <div className="panel m-3 salesTable">

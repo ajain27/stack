@@ -1,3 +1,4 @@
-.graph-panel {
-  height: 440px;
+.graph-panel > canvas {
+  height: 580px !important;
+  padding: 2rem;
 }

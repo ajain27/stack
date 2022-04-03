@@ -14,6 +14,6 @@
 }
 
 .salesTable {
-  height: 388px;
+  max-height: 280px;
   overflow-y: scroll !important;
 }

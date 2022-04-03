@@ -1,3 +1,5 @@
 .salesData {
   width: 100% !important;
+  height: 83vh;
+  overflow: scroll;
 }

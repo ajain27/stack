@@ -2,6 +2,7 @@
 
 body {
   background-color: hsl(0, 0%, 96.5%) !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 .flex {
@@ -14,9 +15,4 @@ body {
 
 .h-full {
   height: 83vh !important;
-}
-
-.panel {
-  box-shadow: 0px 0px 5px 5px #ccc;
-  border-radius: 0;
 }

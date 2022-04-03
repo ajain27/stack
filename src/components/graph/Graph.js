@@ -9,6 +9,14 @@ function Graph({ salesData }) {
       <Line
         data={salesData}
         options={{
+          title: {
+            display: true,
+            text: "Retail Sales",
+            fontSize: 25,
+          },
+          legend: {
+            position: "right",
+          },
           scales: {
             xAxes: [
               {

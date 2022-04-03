@@ -21,8 +21,8 @@ function Sales() {
         </thead>
         <tbody>
           {salesData &&
-            salesData.map((sales) => (
-              <tr>
+            salesData.map((sales, i) => (
+              <tr key={i}>
                 <td>{changeDateFormat(sales.weekEnding)}</td>
                 <td>{currencyFormat(sales.retailSales)}</td>
                 <td>{currencyFormat(sales.wholesaleSales)}</td>

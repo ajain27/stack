@@ -1,16 +1,15 @@
 .table tr th {
   font-size: 14px;
   text-align: center;
-  color: black;
+  color: var(--black);
   font-weight: 400;
   text-transform: uppercase !important;
 }
 
 .table td {
-  color: #aaa;
+  color: var(--grey);
   font-size: 13px;
   text-align: center;
-  font-weight: 700;
 }
 
 .salesTable {

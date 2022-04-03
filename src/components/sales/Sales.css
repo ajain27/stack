@@ -16,3 +16,8 @@
   max-height: 280px;
   overflow-y: scroll !important;
 }
+
+.sort {
+  color: var(--grey) !important;
+  cursor: pointer;
+}

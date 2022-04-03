@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <div fixed="top" className="stackline-nav">
-        <img src={Logo} alt={Logo} className="logo ml-3" />
+        <img src={Logo} alt={Logo} className="logo ml-3 p-2" />
       </div>
     </>
   );

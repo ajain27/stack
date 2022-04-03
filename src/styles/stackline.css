@@ -9,10 +9,6 @@ body {
   display: flex;
 }
 
-.test {
-  border: 1px solid red;
-}
-
 .h-full {
   height: 83vh !important;
 }

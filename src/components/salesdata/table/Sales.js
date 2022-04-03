@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Table from "react-bootstrap/Table";
-import { useStackline } from "../../context/StacklineContext";
+import { useStackline } from "../../../context/StacklineContext";
 import "./Sales.css";
-import { formatDate, formatCurrency } from "../../utils/Custom";
+import { formatDate, formatCurrency } from "../../../utils/Custom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp, faAngleDown } from "@fortawesome/free-solid-svg-icons";

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Graph from "../graph/Graph";
-import Sales from "../sales/Sales";
+import Sales from "../table/Sales";
 import "./SalesData.css";
 import { useStackline } from "../../context/StacklineContext";
 

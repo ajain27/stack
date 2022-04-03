@@ -9,23 +9,23 @@ function Graph({ salesData }) {
       <Line
         data={salesData}
         options={{
-          title: {
-            display: true,
-            text: "Retail Sales",
-            fontSize: 25,
-          },
-          legend: {
-            position: "right",
+          plugins: {
+            title: {
+              display: true,
+              text: "Retail Sales",
+            },
           },
           scales: {
-            xAxes: [
-              {
-                gridLines: {
-                  drawOnChartArea: false,
-                  display: false,
-                },
+            x: {
+              grid: {
+                display: false,
               },
-            ],
+            },
+            y: {
+              grid: {
+                display: false,
+              },
+            },
           },
           interaction: {
             intersect: false,

@@ -6,7 +6,7 @@ function Sidebar({ tags }) {
     <>
       <div className="panel h-full sidebar m-4">
         <div className="text-center info p-4">
-          <img src={img} alt="img" />
+          <img src={img} alt="img" style={{ height: "200px" }} />
           <br />
           <h2 className="p-3">
             <strong>Shark Ninja</strong>

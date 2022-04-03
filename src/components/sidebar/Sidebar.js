@@ -11,7 +11,7 @@ function Sidebar({ tags }) {
             <Figure.Image width={200} height={200} alt="sharkNinja" src={img} />
             <Figure.Caption>
               <h2 className="p-3">
-                <strong>Shark Ninja</strong>
+                <strong style={{ color: "black" }}>Shark Ninja</strong>
               </h2>
               <h3 className="greyText">Magic Bullet NutiBullet 12-Piece</h3>
               <h3 className="greyText">High-Speed Blender/Mixer system</h3>

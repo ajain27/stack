@@ -37,7 +37,7 @@ function Sales() {
 
   return (
     <div className="panel m-3 salesTable">
-      <Table hover className="table">
+      <Table hover className="table" responsive>
         <thead>
           <tr>
             <th className="hand" onClick={() => sort("weekEnding")}>

@@ -6,6 +6,10 @@
   text-transform: uppercase !important;
 }
 
+.table tr {
+  border-top-style: hidden !important;
+}
+
 .table td {
   color: var(--grey);
   font-size: 13px;

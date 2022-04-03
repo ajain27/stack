@@ -2,7 +2,7 @@ import { useState } from "react";
 import Table from "react-bootstrap/Table";
 import { useStackline } from "../../context/StacklineContext";
 import "./Sales.css";
-import { currencyFormat, changeDateFormat } from "../../utils/Custom";
+import { formatDate, formatCurrency } from "../../utils/Custom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp, faAngleDown } from "@fortawesome/free-solid-svg-icons";
@@ -61,11 +61,11 @@ function Sales() {
           {sortedData &&
             sortedData.map((sales, i) => (
               <tr key={i}>
-                <td>{changeDateFormat(sales.weekEnding)}</td>
-                <td>{currencyFormat(sales.retailSales)}</td>
-                <td>{currencyFormat(sales.wholesaleSales)}</td>
+                <td>{formatDate(sales.weekEnding)}</td>
+                <td>{formatCurrency(sales.retailSales)}</td>
+                <td>{formatCurrency(sales.wholesaleSales)}</td>
                 <td>{sales.unitsSold}</td>
-                <td>{currencyFormat(sales.retailerMargin)}</td>
+                <td>{formatCurrency(sales.retailerMargin)}</td>
               </tr>
             ))}
         </tbody>

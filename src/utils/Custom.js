@@ -1,4 +1,4 @@
-export const currencyFormat = (num) => {
+export const formatCurrency = (num) => {
   return (
     "$" +
     num
@@ -8,7 +8,7 @@ export const currencyFormat = (num) => {
   );
 };
 
-export const changeDateFormat = (inputDate) => {
+export const formatDate = (inputDate) => {
   var splitDate = inputDate.split("-");
   if (splitDate.count === 0) {
     return null;

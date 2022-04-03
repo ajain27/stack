@@ -9,12 +9,12 @@ function Graph({ salesData }) {
       <Line
         data={salesData}
         options={{
-          plugins: {
-            title: {
-              display: true,
-              text: "Retail Sales",
-            },
-          },
+          // plugins: {
+          //   title: {
+          //     display: true,
+          //     text: "Retail Sales",
+          //   },
+          // },
           scales: {
             x: {
               grid: {

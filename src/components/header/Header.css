@@ -1,4 +1,9 @@
 .stackline-nav {
   background-color: var(--stackline-background) !important;
-  height: 50px;
+  height: 100px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
 }

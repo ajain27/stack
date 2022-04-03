@@ -1,15 +1,12 @@
 import "./Header.css";
 
+import Logo from "../../icons/stackline-logo.png";
+
 function Header() {
   return (
     <>
       <div fixed="top" className="stackline-nav">
-        <img
-          alt=""
-          src="../../icons/stackline-logo.png"
-          width="30"
-          height="30"
-        />
+        <img src={Logo} alt={Logo} className="logo ml-3" />
       </div>
     </>
   );
